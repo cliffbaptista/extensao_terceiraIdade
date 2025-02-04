@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>
+    Configurações da lista de permissões</title>
+  <link rel="stylesheet" href="options.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Lista de permissões de sites confiáveis</h1>
+    
+    <div class="add-site">
+      <input type="text" id="newSite" placeholder="Entre com URL do site (exemplo.com.br ou www.exemplo.com.br)">
+      <button id="addSite">Adicionar sites</button>
+    </div>
+
+    <div class="whitelist-container">
+      <h2>Sites na lista de permissões</h2>
+      <div id="whitelistItems" class="whitelist-items"></div>
+    </div>
+  </div>
+  <script src="options.js"></script>
+</body>
+</html>
